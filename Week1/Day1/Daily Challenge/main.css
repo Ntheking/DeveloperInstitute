@@ -1,0 +1,54 @@
+li{
+	display: inline;
+	font-style: bold;
+	font-family: cursive;
+	background-color: black;
+	margin: 30px;
+	font-size: 30px;
+	font-weight: 8px;
+	color: white;
+}
+li:hover {
+	color: gray;
+}
+nav {
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+}
+ul{
+	display: inline;
+}
+html, body, head{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	background-image: url(ironman3.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.icon{
+	width: 10px;
+	display: inline;
+	height: 100px;
+	background-color: green;
+	color: white;
+}
+img{
+	margin: 0px;
+	margin-right: 80vh;
+	margin-left: 10vh;
+	display: inline;
+}
+p{
+	display: inline;
+	color: white;
+	position:relative;
+	top: 40%;
+	left: 0%;
+	font-family: cursive;
+}
