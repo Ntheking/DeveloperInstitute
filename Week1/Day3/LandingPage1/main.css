@@ -1,0 +1,109 @@
+.main{
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background-image: url(map.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body, html{
+	margin: 0px;
+}
+h1{
+	padding: 20px;
+}
+.parent{
+	display: flex;
+	width: 100%;
+	height: 3vh;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	top: 5%;
+}
+h2{
+	color: CornflowerBlue;
+}
+p.block{
+	font-family: monospace;
+}
+.review3{
+	width:300px;
+	height: 300px;
+	position:relative;
+	top: 12vh;
+	background-color: white;
+
+}
+.review1{
+	width:300px;
+	height: 300px;
+	background-color: white;
+
+}
+.review2{
+	width:300px;
+	height: 300px;
+	position: relative;
+	top: 7vh;
+	background-color: white;
+}
+.parent2{
+	display: flex;
+	width: 100%;
+	height: 3vh;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	top: 40%;
+}
+.top{
+	height: 60%;
+	width: 100%;
+	background-color: white;
+
+}
+.bottom{
+	height: 40%;
+	width: 100%;
+	background-color: lightblue;
+	color: white;
+}
+@media only screen and (max-width: 600px){
+	.parent{
+		display: block;
+		width: 100%;
+		height: 3vh;
+		align-items: center;
+		position: relative;
+		top: 40%;
+	}
+	.parent2{
+		display: block;
+		width: 100%;
+		height: vh;
+		align-items: center;
+		position: relative;
+		top: 40%;
+	}
+	.review1{
+		width:300px;
+		height: 300px;
+		background-color: white;
+		margin:50px;
+	}
+	.review2{
+	width:300px;
+	height: 300px;
+	background-color: white;
+	margin: 50px;
+	}
+	.review3{
+	width:300px;
+	height: 300px;
+	background-color: white;
+	margin: 50px;
+
+	}
+}
