@@ -1,0 +1,166 @@
+nav{
+	background-color: orange;
+	width: 100%;
+	height: 7vh;
+	position: fixed;
+	top: 0%;
+}
+body, html{
+	margin:0px;
+}
+li{
+	display: inline;
+	margin-right: 3vh;
+	color: white;
+	font-size: 20px;
+	padding:1vh;
+}
+li:hover{
+	display: inline;
+	margin-right: 3vh;
+	padding:1vh;
+	color: orange;
+	font-size: 20px;
+	background-color: white;
+}
+ul{
+	position: relative;
+	float: right;
+}
+h4{
+	float: left;
+	margin-top: 2vh;
+	margin-left: 4vh;
+	position: relative;
+	display: inline;
+	font-size: 23px;
+	color: white;
+}
+h4:hover{
+	color: blue;
+}
+.jumbotron{
+	color: orange;
+	top: 20vh;
+	left: 10vw;
+	position: relative;
+}
+.seeMore{
+	padding: 10px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.seeMore:hover{
+	background-color: gray;
+}
+.backgroundPic{
+	width: 100%;
+	height: 90vh;
+	background-image: url(staticBackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.aboutus{
+	width: 100%;
+	height: 60vh;
+	background-color: white;
+	text-align: center;
+}
+.sectionTitle{
+	position: relative;
+	margin-top: 0px;
+	top: 10vh;
+	color: orange;
+	display: block;
+}
+.aboutContent{
+	position: relative;
+	top: 10%;
+	display: flex;
+	justify-content: center;
+}
+.aboutPic{
+	display: inline;
+}
+.vl{
+	height: 40vh;
+	width: 10px;
+	margin: 15px;
+	background-color: cornflowerblue;
+	display: inline-block;
+}
+.aboutText{
+	display: inline;
+	text-align: left;
+	color: gray;
+
+}
+b{
+	color: cornflowerblue;
+	font-size: 40px;
+}
+.portfolio{
+	width: 100%;
+	height: 90vh;
+	background-color: white;
+	text-align: center;
+}
+.rowBox{
+	width: 100%;
+	margin-top: 15vh;
+	display: flex;
+	justify-content: center;
+}
+.portImg{
+	margin-left: 6vh;
+	margin-right: 6vh;
+}
+.card{
+		height: 40vh;
+		width: 20vw;
+		display: inline;
+		position: relative;
+		top: 10vh;
+	}
+.cardHolder{
+	display: flex;
+	justify-content: space-around;
+}
+.cardTop{
+	width: 100%;
+	height: 50%;
+	background-image: url(art.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.cardText{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 30%;
+	display: inline-block;
+	text-align: left;
+}
+.postTitle{
+	color: orange;
+	margin-left: 1vh;
+}
+.postText{
+	margin-left: 1vh;
+}
+.teamImg{
+	margin-bottom: 0px;
+}
+.getTouch{
+
+}
+.form{
+	text-align: right;
+	position: relative;
+	top: 7vh;
+	width: 40%;
+}

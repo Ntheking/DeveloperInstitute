@@ -5,8 +5,9 @@ img{
 .nav-link{
 	display: inline;
 }
-.navlink:hover{
+.nav-link:hover{
 	background-color: black;
+	color: white;
 }
 .d-flex{
 	margin-left: 20vh;
