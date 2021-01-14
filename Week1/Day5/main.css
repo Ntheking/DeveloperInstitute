@@ -1,0 +1,20 @@
+img{
+	display: inline;
+	margin: 0px;
+}
+.nav-link{
+	display: inline;
+}
+.navlink:hover{
+	background-color: black;
+}
+.d-flex{
+	margin-left: 20vh;
+}
+.container-fluid{
+	margin:0px;
+}
+.botbut{
+	background-color: white;
+	border: solid 1px;
+}
