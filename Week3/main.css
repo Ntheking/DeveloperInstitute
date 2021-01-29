@@ -1,0 +1,44 @@
+.sidebar{
+	background-color: gray;
+	width: 20vw;
+	height: 100vh;
+	position:relative;
+	float; left;
+	text-align: center;
+	display: inline-block;
+}
+html, body, header{
+	margin: 0px;
+}
+.clear{
+	font-size: 40px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 0.1px solid black;
+}
+.colorBox{
+	display: inline-block;
+	height: 10%;
+	width: 20%;
+	margin: 10px;
+	border: solid black 1px;
+}
+.main{
+	display: inline-block;
+	width: 80vw;
+	height: 100vh;
+	position: relative;
+	float:right;
+	background-color: white;
+	text-align: center;
+}
+.gridBox{
+	background-color: white;
+	width: 1%;
+	display: inline;
+	height: 1%;
+	float: right;
+	position: relative;
+	padding: 0px;
+	border: solid 1px lightgray;
+}
