@@ -18,6 +18,6 @@ for(let i=0; i < arrl; i++){
 		arr[i] = arr[i]+" ";
 	}
 	arr[i]+="*";
-	console.log(arr[i]);
+	console.log(arr[i]);//
 }
 console.log(topBot);
